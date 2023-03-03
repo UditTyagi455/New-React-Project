@@ -1,0 +1,11 @@
+
+.fullSidebar {
+    height: 86vh;
+    background-color: #edf7f7;
+    width: 16vw;
+    transition: width 2s transition-delay 3s;
+    position: absolute;
+}
+.fullSidebar::after{
+    transition: all 0.3s linear;
+}

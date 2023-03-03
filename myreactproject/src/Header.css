@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    boxSizing: "border-box"
+}
+.Headerclass {
+    height: 7rem;
+    width: 100%;
+    background-color: #4287f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.sidebar{
+    display: flex
+}
