@@ -13,7 +13,7 @@ const Header = () => {
     <div className='Headerclass'>
         <div>
           <div className='sidebar'>
-           <span style={{color: "white",fontSize: "2rem",cursor: "pointer"}} onClick={handleClick}>
+           <span className="listicon" onClick={handleClick}>
            <AiOutlineBars/>
            </span>
            <p style={{color: "white",fontSize: "1.7rem",paddingLeft: "15px"}}>Welcome To React World</p>

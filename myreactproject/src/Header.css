@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    boxSizing: "border-box"
+    box-sizing: "border-box"
 }
 .Headerclass {
     height: 7rem;
@@ -9,8 +9,20 @@
     background-color: #4287f5;
     display: flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+    
 }
 .sidebar{
     display: flex
+}
+.listicon {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.4s;
+}
+.listicon:hover{
+    transform: rotate(90deg);
+    color: #FF9900;
 }
