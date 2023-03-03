@@ -3,9 +3,12 @@
     height: 86vh;
     background-color: #edf7f7;
     width: 16vw;
-    transition: width 2s transition-delay 3s;
     position: absolute;
 }
-.fullSidebar::after{
-    transition: all 0.3s linear;
+
+
+@media screen and (max-width: 480px) {
+    .fullSidebar {
+        width: 46vw;
+    }
 }

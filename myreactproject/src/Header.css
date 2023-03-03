@@ -10,7 +10,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    box-shadow: 0px 3px 0px 0px #349beb;
+}
+.welcomeText {
+    color: white;
+    font-size: 1.7rem;
+    padding-left: 15px
 }
 .sidebar{
     display: flex
@@ -26,3 +31,12 @@
     transform: rotate(90deg);
     color: #FF9900;
 }
+
+@media screen and (max-width: 480px) {
+    .Headerclass {
+        flex-direction: column
+    }
+    .welcomeText {
+      font-size: 1.5rem
+    }
+  }

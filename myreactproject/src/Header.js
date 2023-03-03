@@ -16,7 +16,7 @@ const Header = () => {
            <span className="listicon" onClick={handleClick}>
            <AiOutlineBars/>
            </span>
-           <p style={{color: "white",fontSize: "1.7rem",paddingLeft: "15px"}}>Welcome To React World</p>
+           <p className="welcomeText">Welcome To React World</p>
          </div>
       </div>
       <div>
